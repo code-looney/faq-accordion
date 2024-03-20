@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="output.css">
+  <script defer src="/src/index.js"></script>
   
   <title>Frontend Mentor | FAQ accordion</title>
 
@@ -15,15 +16,34 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="">
-  FAQs
+<body class="bg-main h-auto items-center outline">
+  <header class="h-64 bg-[url('./images/background-pattern-desktop.svg')]"></header>
 
-  What is Frontend Mentor, and how will it help me?
-
-  Frontend Mentor offers realistic coding challenges to help developers improve their 
-  frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
-  all levels and ideal for portfolio building.
-
+  <main class="w-full h-full flex flex-col justify-center items-center outline">
+  <div class="w-[370px] h-[500px] flex container rounded-md outline translate-y-[-100px]">
+    <div class="bg-white">
+    <div>
+      <img src="./images/icon-star.svg" alt="">
+      <h1 class="text-[32px] font-bold">FAQs</h1>
+    </div>
+      
+      <div>
+        <h2 class="font-bold">What is Frontend Mentor, <br> and how will it help me?</h2>
+        <img class="plus" src="./images/icon-plus.svg" alt="">
+      </div>
+      
+      <p class="text-[14px]">
+        Frontend Mentor offers realistic coding challenges to help developers improve their
+        frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for
+        all levels and ideal for portfolio building.
+      </p>
+    </div>
+  </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+</main>
   <!-- Is Frontend Mentor free?
 
   Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
@@ -39,10 +59,5 @@
   The best place to get help is inside Frontend Mentor's Discord community. There's a help 
   channel where you can ask questions and seek support from other community members. -->
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
